@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+    :root{
+        --bg:rgb(10, 10, 88);
+        --text-color: rgb(31, 164, 226);
+        --font: 'Poppins', sans-serif;
+        --box: border-box;
+    }
+
+    *{
+        background-color: var(--bg);
+    }
+
+    form {
+        position: absolute;
+        left: 50%;
+        top: calc(50% - 50px);
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        text-align: center;
+    }
+
+    form h1 {
+        color: var(--text-color);
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    form p {
+        color: var(--text-color);
+        font-size: 18px;
+    }
+
+    form input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: var(--text-color);
+        border-radius: 20px;
+        transition: .3s;
+        font-size: 18px;
+    }
+
+    form input:hover {
+        padding: 16px;
+        border: none;
+        color: #fff;
+    }
+
+    form input::placeholder {
+        padding: 16px;
+        border: none;
+        color: #fff;
+    }
+
+    form h5 ,
+    form h5 a {
+        color: var(--text-color);
+        font-size: 18px;
+    }
+
+    form h5 a:hover,
+    form h5 a {
+        color: #fff;
+    }
+
+    .submit-button {
+        font-size: 30px;
+    }
+
+    .submit-button button {
+        padding: 15px;
+        width: 50%;
+        background-color: var(--text-color);
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    </style>
+</head>
+<body>
+    <form action="newuser.html">
+        <h1>Register/Signup</h1>
+
+        <marquee><p>Welcome to Coded Tech</p></marquee>
+
+        <input type="text" placeholder="Enter Your Full Name" required><p>
+        <input type="email" placeholder="Enter Your Email" required><p>
+        <input type="password" placeholder="Enter Your Password" required>
+
+        <h5>Have An Account? <a href="login.html">Sign In</a></h5>
+
+        <a class="submit-button" href="newuser.html"><button>Submit</button></a>
+
+        <h5><a href="../index.html">Back to home</a></h5>
+    </form>
+
+    
+</body>
+</html>

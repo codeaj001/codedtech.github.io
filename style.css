@@ -1,0 +1,117 @@
+/*Index.html*/
+
+:root{
+    --bg:rgb(10, 10, 88);
+    --text-color: rgb(31, 164, 226);
+    --font: 'Poppins', sans-serif;
+    --box: border-box;
+}
+
+*{
+    background-color: var(--bg);
+}
+
+.nav{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    margin: 30px 30px 0px 0px;
+    color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 300px){
+    .nav{
+        justify-content: center;
+    }
+    .nav a{
+        display: none;
+    }
+}
+.nav .donbut{
+    margin-left: auto;
+}
+
+.nav h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav span{
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.main{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.main p{
+    color: var(--text-color);
+    font-style: italic;
+    font-size: 20px;
+}
+
+.reglog{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.reglog button{
+    background-color: var(--text-color);
+    color: #fff;
+    padding: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.reglog a{
+    color: #fff;
+    background-color: var(--text-color);
+    padding: 20px;
+    border-radius: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.reglog:hover{
+    padding: 25px;
+    transition: .3s;
+}
+
+.reg{
+    margin: 20px;
+}
+
+.whole .nav a:hover{
+    color: #fff;
+}
+
+@media screen and (min-width: 1000px){
+    
+}
+/*End index.html*/

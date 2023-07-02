@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+
+        *{
+            background-color: rgb(10, 10, 88);
+        }
+
+        .welcome {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .welcome h1 {
+            font-size: 35px;
+            text-align: center;
+            color: rgb(31, 164, 226);
+        }
+
+        .button {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .button a{
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        .button a button{
+            background-color: rgb(31, 164, 226);
+            border: none;
+            padding: 15px;
+            border-radius: 20px;
+            transition: .4s;
+        }
+
+        .button a button:hover{
+            border: none;
+            padding: 20px;
+            transition: .4s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome">
+        <h1>Welcome!<br>
+        What would you like to do?</h1>
+        
+        <div class="button">
+            <a href="profile.html"><button>Update Profile</button></a>
+            <a href="courses.html"><button>Skip</button></a>
+        </div>
+        
+    </div>
+
+    
+
+</body>
+</html>

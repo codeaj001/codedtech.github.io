@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+
+        *{
+            background-color: rgb(10, 10, 88);
+        }
+
+        header h2 {
+            color: rgb(31, 164, 226);
+            font-size: 30px;
+            padding: 20px 15px;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        main img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .input-section {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .input-section p{
+            color: #fff;
+            font-size: 20px;
+        }
+
+        .input-section input,
+        .input-section select {
+            width: 90%;
+            border: none;
+            background-color: rgb(31, 164, 226);
+            color: rgb(10, 10, 88);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .input-section input::placeholder{
+            color: rgb(10, 10, 88);
+        }
+
+        .input-section button {
+            background-color: rgb(31, 164, 226);
+            color: rgb(10, 10, 88);
+            border: none;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+        .input-section select option {
+            background-color: rgb(31, 164, 226);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Profile</h2>
+    </header>
+    <main>
+        <img src="../img/tate.jpg" alt="Profile Picture">
+        <form class="input-section" action="mode.html">
+            <p>Update your profile</p>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Phone Number" required>
+            <select required>
+                <option value="boc">Basics of Computer</option>
+                <option value="gd">Graphic Design</option>
+                <option value="wd">Web Design</option>
+                <option value="wdev">Web Development</option>
+                <option value="ft">Forex Trading</option>
+                <option value="akdp">Amazon KDP</option>
+                <option value="dm">Digital Marketing</option>
+            </select>
+            <input type="date" placeholder="Date of Birth" required>
+            <input type="text" placeholder="Social Media Link" required>
+            <p></p>
+            <a href="#"><button>Submit</button></a>
+        </form>
+    </main>
+</body>
+</html>
